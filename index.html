@@ -3,15 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="input">
-    <button id="button">Vetor</button>
-    <button id='meupiru'>Pipi</button>
-    <p id='meup'></p>
-    <button id='ablubleble'>Ablubleble</button>
+    <div class="background"></div>
+    <div class="main">
+        <input type="text" id="input">
+        <button id="button">Vetor</button>
+    </div>
+    <div id="popup" class="popup">
+        <div class="buttondiv">
+            <p id="closebutton">x</p>
+        </div>
+        <h2 class="title" id="title"></h2>
+        <div id="maindrink">
+            <h5 id="firstdrink" class="drinks"></h5>
+            <img src="" alt="" id="image">
+        </div>
+        <h5 id="seconddrink" class="drinks"></h5>
+        <h5 id="thirddrink" class="drinks"></h5>
+        <h5 id="fourthdrink" class="drinks"></h5>
+        <h5 id="fifthdrink" class="drinks"></h5>
+    </div>
     <script src="script.js">
     </script>
 </body>
