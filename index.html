@@ -5,27 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Álgebra linear</title>
 </head>
 <body>
-    <div class="background"></div>
+    <div class="background">
+        <h2 id="title">Projeto final Álgebra Linear!</h2>
+        <div class="textdiv">
+            <p id="paragraph">Meu programa pega uma bebida de seu gosto e retorna bebidas semelhantes que possam ser do seu interesse, baseado nos cossenos entre os vetores.</p>
+        </div>
+    </div>
     <div class="main">
-        <input type="text" id="input">
-        <button id="button">Vetor</button>
+        <p id="instruction">Insira seu drink preferido ou pesquise por palavras chave:</p>
+        <div class="inputarea">
+            <input type="text" id="input">
+            <button id="button">Concluir</button>
+        </div>
     </div>
     <div id="popup" class="popup">
         <div class="buttondiv">
             <p id="closebutton">x</p>
         </div>
-        <h2 class="title" id="title"></h2>
-        <div id="maindrink">
-            <h5 id="firstdrink" class="drinks"></h5>
-            <img src="" alt="" id="image">
+        <h2 class="title" id="closedrinks">Drinks que você pode gostar </h2>
+        <div id="drinks">
+            <div id="maindrink">
+                <h5 id="firstdrink" class="drinks"></h5>
+                <img src="" alt="" id="image">
+            </div>
+            <div id="secondarydrinks">
+                <h5 id="seconddrink" class="drinks"></h5>
+                <h5 id="thirddrink" class="drinks"></h5>
+                <h5 id="fourthdrink" class="drinks"></h5>
+                <h5 id="fifthdrink" class="drinks"></h5>
+            </div>
         </div>
-        <h5 id="seconddrink" class="drinks"></h5>
-        <h5 id="thirddrink" class="drinks"></h5>
-        <h5 id="fourthdrink" class="drinks"></h5>
-        <h5 id="fifthdrink" class="drinks"></h5>
     </div>
     <script src="script.js">
     </script>
