@@ -97,7 +97,10 @@ const getData = (array) => {
         document.getElementById("thirddrink").textContent = array[3].nome
         document.getElementById("fourthdrink").textContent = array[4].nome
         document.getElementById("fifthdrink").textContent = array[5].nome
+        console.log(ingredients.length)
         document.getElementById("popup").style = "display: flex;"
+        document.getElementById("title").textContent = ""
+        document.getElementById("paragraph").textContent = ""
     })
 }
 
